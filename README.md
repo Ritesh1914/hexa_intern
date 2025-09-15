@@ -15,16 +15,16 @@ The pipeline builds, lints, tests, and deploys the app in a container. We used t
    │── .eslintrc.json
    │
    ├── routes/
-   │    └── route.js
+   │   └── route.js
    │
    ├── views/
-   │    └── home.ejs
+   │   └── home.ejs
    │
    ├── public/
-   │    └── images
+   │   └── images
    │
    └── test/
-        └── basic.test.js
+       └── basic.test.js
  
 
      
