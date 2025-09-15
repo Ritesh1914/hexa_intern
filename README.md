@@ -6,24 +6,24 @@ The pipeline builds, lints, tests, and deploys the app in a container. We used t
 ## Project Structure
 
   node-express-hello-world/
-│── app.js
-│── package.json
-│── package-lock.json
-│── Dockerfile
-│── pipeline.sh
-│── .dockerignore
-│── .eslintrc.json
-│
-├── routes/
-│   └── route.js
-│
-├── views/
-│   └── home.ejs
-│
-├── public/
-│   └── images
-│
-└── test/
-    └── basic.test.js
+  │── app.js
+  │── package.json
+  │── package-lock.json
+  │── Dockerfile
+  │── pipeline.sh
+  │── .dockerignore
+  │── .eslintrc.json
+  │
+  ├── routes/
+  │   └── route.js
+  │
+  ├── views/
+  │   └── home.ejs
+  │
+  ├── public/
+  │   └── images
+  │
+  └── test/
+      └── basic.test.js
 
 
