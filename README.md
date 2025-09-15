@@ -4,7 +4,6 @@ This project demonstrates a local CI/CD pipeline using Docker for a Node.js + Ex
 The pipeline builds, lints, tests, and deploys the app in a container. We used the same node.js Expresshello world app with Dockerfilw which we used in the Task-1.
 
 ## Project Structure
-
    node-express-hello-world/
    │── app.js
    │── package.json
