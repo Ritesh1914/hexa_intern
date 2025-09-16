@@ -29,9 +29,10 @@ The pipeline builds, lints, tests, and deploys the app in a container. We used t
    * Use the Task-1 file or clone it in our machine
    * Install Docker desktop
    * Use the Dockerfie from Task-1
-       git clone https://github.com/Ritesh1914/Task-1
+
+        git clone https://github.com/Ritesh1914/Task-1
 
 ## Steps:
-    
+    # Install
              
      
