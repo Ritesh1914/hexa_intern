@@ -30,9 +30,29 @@ The pipeline builds, lints, tests, and deploys the app in a container. We used t
    * Install Docker desktop
    * Use the Dockerfie from Task-1
 
-        git clone https://github.com/Ritesh1914/Task-1
 
 ## Steps:
-    # Install
-             
-     
+  ## Clone the repository
+     git clone https://github.com/Ritesh1914/Task-1 
+     cd Task-1       
+  ## Install dependencies if not
+    - check if npm is install or not 
+       npm -v
+    -  if not
+       npm install
+    -  download the eslint and jest dependecies
+       npm install --save-dev eslint@8 jest
+    -  to check the list of npm dependencies
+       npm list --dept=0
+       npx install -v r eslint -v
+
+   ## Run th script pipeline.sh
+      to make the script executable run
+        chmod +x pipeline.sh
+      to run the script 
+         ./pipeline.sh
+   ## To set the env for eslint we need to create a json file name as .eslintrc.json
+   ## To set the env for jest we need to create a js file in task folder (ex best.test.js).
+   ## After running script we would find some error in app.js file and we have edit the error and again run our pipeline.
+   ## Our Pipeline runs successfully!
+    
